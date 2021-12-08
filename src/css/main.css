@@ -1,0 +1,50 @@
+/* Fonts */
+/* 
+font-family: 'Armata', sans-serif;
+font-family: 'Overpass', sans-serif;
+font-family: 'Russo One', sans-serif; 
+*/
+
+/* 
+Colors 
+  - red: #952426
+  - white: #f6f6f6
+  - black: #101010
+  - grey-text: #383838
+*/
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background: #101010;
+  color: #f6f6f6;
+}
+
+h1,
+h2 {
+  font-family: "Russo One", sans-serif;
+  font-size: 4rem;
+}
+
+h3,
+h4 {
+  font-family: "Armata", sans-serif;
+}
+
+h5,
+h6 {
+  font-family: "Overpass", sans-serif;
+}
+
+/* #region Landing Page */
+.landing-page {
+  height: 100vh;
+}
+
+.landing-page header {
+  width: 40%;
+}
+
+/* #endregion */

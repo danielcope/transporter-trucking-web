@@ -1,6 +1,15 @@
-------- Transporter Trucking Website  --------
+------- Transporter Trucking Website --------
 
-Design and Developed by Daniel Cope (daniel.ash.cope@gmail.com)
+Designed and Developed by Daniel Cope (daniel.ash.cope@gmail.com)
 
-Technology used 
- - React
+Technology used
+
+- React
+- AWS Lambda, API Gateways, SES
+- React Routes
+
+Google Fonts Used
+
+- Russo One
+- Armata
+- Overpass

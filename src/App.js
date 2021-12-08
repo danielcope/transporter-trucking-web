@@ -1,12 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+
+import routes from "./routes";
+
+import "./css/reset.css";
+import "./css/main.css";
 
 function App() {
-  return (
-    <div className="App">
-    
-    </div>
-  );
+  return <div className="App">{routes}</div>;
 }
 
 export default App;
