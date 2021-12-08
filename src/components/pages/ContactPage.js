@@ -1,7 +1,11 @@
 import React from "react";
 
 const ContactPage = () => {
-  return <div></div>;
+  return (
+    <section>
+      <h1>RAWR</h1>
+    </section>
+  );
 };
 
 export default ContactPage;
