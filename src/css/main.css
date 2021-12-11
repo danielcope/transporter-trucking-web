@@ -44,6 +44,20 @@ p {
   font-size: 2rem;
 }
 
+ul {
+  width: 90%;
+  height: 90%;
+  list-style: none;
+}
+
+li {
+  height: 15%;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+}
+
 /* #region Landing Page */
 
 .landing-page {
@@ -112,7 +126,7 @@ p {
   background: url("../imgs/roadrunners-logo-transparent.png");
   background-size: cover;
   background-position: center;
-  height: 80px;
+  height: 120px;
   width: 160px;
 }
 
@@ -124,29 +138,29 @@ p {
   height: 100%;
   opacity: 0.9;
   background: -moz-linear-gradient(
-    90deg,
-    rgb(24, 24, 24) 0%,
-    rgba(53, 53, 53, 0.5) 75%,
-    rgba(53, 53, 53, 0) 100%
+    135deg,
+    rgb(0, 0, 0) 0%,
+    rgba(12, 12, 12, 0.5) 85%,
+    rgba(53, 53, 53, 0.219) 100%
   );
   background: -webkit-linear-gradient(
-    90deg,
-    rgb(24, 24, 24) 0%,
-    rgba(53, 53, 53, 0.5) 75%,
-    rgba(53, 53, 53, 0) 100%
+    135deg,
+    rgb(0, 0, 0) 0%,
+    rgba(12, 12, 12, 0.5) 85%,
+    rgba(53, 53, 53, 0.219) 100%
   );
   background: linear-gradient(
-    90deg,
-    rgb(24, 24, 24) 0%,
-    rgba(53, 53, 53, 0.5) 75%,
-    rgba(53, 53, 53, 0) 100%
+    135deg,
+    rgb(0, 0, 0) 0%,
+    rgba(12, 12, 12, 0.5) 85%,
+    rgba(53, 53, 53, 0.219) 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#353535",endColorstr="#353535",GradientType=1);
 }
 
 .contact-link,
 .contact-link:active {
-  color: #353535;
+  color: #f6f6f6;
   text-decoration: none;
   position: absolute;
   right: 10px;
@@ -177,11 +191,6 @@ p {
 .about h1,
 .about p {
   color: #101010;
-}
-
-.small-truck {
-  height: 221px;
-  max-width: 313px;
 }
 
 .about-contact-link,
@@ -224,41 +233,14 @@ p {
   width: 75%;
 }
 
-.contact-page form {
-  height: 80%;
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-
-form input,
-form textarea {
-  background: #101010;
-  border: none;
-  border-bottom: #f6f6f6 solid 1px;
-  font-family: "Overpass", sans-serif;
-  font-size: 1.8rem;
-  color: #f6f6f6;
-}
-
-.submit-button {
-  border: none;
-}
-
 .fa-truck {
   color: #f6f6f6;
   font-size: 2.4rem;
 }
 
-form section {
-  width: 40%;
-  display: flex;
-  justify-content: space-between;
-}
-
-form section div {
-  width: 50%;
+.icon {
+  margin: 0 15px 0 0;
+  font-size: 3rem;
 }
 
 /* #endregion */
