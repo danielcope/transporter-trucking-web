@@ -11,11 +11,12 @@ const ContactPage = () => {
     <section id="contact-page" className="contact-page">
       <section className="contact-page-container">
         <section>
-          <h1>
-            Contact us <FontAwesomeIcon icon={faTruck} />
-          </h1>
+          <section className="contact-page-title-container">
+            <h1>Contact us </h1>
+            <FontAwesomeIcon className="faTruck-icon" icon={faTruck} />
+          </section>
           <p>
-            We would love to hear from you. React out to through one of these
+            We would love to hear from you. React out to us through one of these
             methods and we will accommodate.
           </p>
         </section>

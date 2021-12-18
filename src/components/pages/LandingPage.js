@@ -7,7 +7,6 @@ const LandingPage = () => {
   return (
     <section className="landing-page" id="landing-page">
       <section id="top-landing" className="top-landing">
-        <div className="semi-truck"></div>
         <GradientBackground />
         <Link className="contact-link" to="/contactpage">
           Contact us
