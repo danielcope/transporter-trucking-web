@@ -8,21 +8,9 @@ const AboutSection = () => {
     <section id="about" className="about">
       <section className="about-content-container">
         <div className="small-truck-container">
-          <img
-            src={truck}
-            alt="semi-truck"
-            className="small-truck"
-            data-aos="fade-up"
-            data-aos-easing="linear"
-            data-aos-duration="1000"
-          />
+          <img src={truck} alt="semi-truck" className="small-truck"/>
         </div>
-        <section
-          className="about-text-container"
-          data-aos="fade-up"
-          data-aos-easing="linear"
-          data-aos-duration="1200"
-        >
+        <section className="about-text-container">
           <h1>About us</h1>
           <p>
             We have been delivering in Central Coast, California for over two

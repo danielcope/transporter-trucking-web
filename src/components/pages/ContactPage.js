@@ -12,8 +12,10 @@ const ContactPage = () => {
       <section className="contact-page-container">
         <section>
           <section className="contact-page-title-container">
-            <h1>Contact us </h1>
-            <FontAwesomeIcon className="faTruck-icon" icon={faTruck} />
+            <h1>
+              Contact us
+              <FontAwesomeIcon className="faTruck-icon" icon={faTruck} />
+            </h1>
           </section>
           <p>
             We would love to hear from you. React out to us through one of these

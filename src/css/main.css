@@ -58,7 +58,7 @@ li {
   padding: 0 10%;
 }
 
-/* Scroll bar */
+/* #region Scroll bar */
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -76,7 +76,7 @@ li {
   background: #5e5e5e60;
 }
 
-/* ==== */
+/* #endregion ==== */
 
 .landing-page {
   height: 200vh;
@@ -155,7 +155,7 @@ li {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #101010ee;
+  background: #10101034;
 }
 
 .contact-link,
@@ -255,6 +255,7 @@ li {
 .contact-page h1 {
   font-family: "Armata", sans-serif;
   margin: 0 5px 0 0;
+  display: flex;
 }
 
 .fa-truck {
@@ -308,18 +309,19 @@ li {
   }
 
   .contact-page-container section {
-    height: 60%;
+    height: 40%;
   }
 
   .contact-page h1 {
     font-family: "Armata", sans-serif;
     font-size: 6rem;
-    width: 57.5%;
-    text-align: end;
+    width: 52%;
+    text-align: center;
   }
 
   .faTruck-icon {
     font-size: 5rem;
+    margin: 5px 0 0 2rem;
   }
 }
 
@@ -335,12 +337,15 @@ li {
   }
 
   .landing-page h1 {
-    font-size: 7rem;
+    font-size: 8em;
     width: 80%;
   }
 
   .landing-page h3 {
     font-size: 2.8rem;
+    position: relative;
+    top: 0;
+    right: 55px;
   }
 
   .about-text-container p {
