@@ -2,6 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import AboutSection from "../AboutSection";
 import GradientBackground from "../GradientBackground";
+import Mouse from "../Mouse";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMouse } from "@fortawesome/free-solid-svg-icons";
 
 const LandingPage = () => {
   return (
@@ -17,9 +21,9 @@ const LandingPage = () => {
             <h1>Roadrunners Trucking</h1>
           </section>
           <h3>Serving California since 1998</h3>
-          <h5>Learn More &#8595;</h5>
         </header>
       </section>
+      <Mouse />
       <AboutSection />
     </section>
   );
