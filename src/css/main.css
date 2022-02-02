@@ -20,6 +20,7 @@ html {
 }
 
 body {
+  overflow: overlay;
   background: rgb(0, 0, 0);
   background: -moz-linear-gradient(
     120deg,
@@ -79,14 +80,14 @@ li {
 
 /* #region Scroll bar */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 10px;
 }
 ::-webkit-scrollbar-track {
-  margin: 15px 0;
+  background: #00000000;
 }
 ::-webkit-scrollbar-thumb {
-  border-radius: 8px;
-  background: rgba(83, 83, 83, 0.363);
+  border-radius: 10px;
+  background: #e0ab5d48;
 }
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(165, 165, 165, 0.404);
@@ -109,9 +110,6 @@ li {
 .landing-page header {
   width: 90%;
   height: 90%;
-  position: absolute;
-  top: 0;
-  left: 0;
   padding: 5%;
   display: flex;
   flex-direction: column;
@@ -119,11 +117,10 @@ li {
   align-items: center;
 }
 
-.top-landing header section {
+.title-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  height: 20%;
   width: 85%;
   border-bottom: #f0f0f0 solid 2px;
 }
@@ -161,15 +158,6 @@ li {
   background-position: center;
   height: 120px;
   width: 160px;
-}
-
-.landing-page .shadow-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #10101034;
 }
 
 .learn-more {
@@ -306,109 +294,44 @@ li {
   width: 100%;
 }
 
-@media screen and (min-width: 1000px) {
-  .landing-page header {
-    height: 45%;
-    width: 60%;
-    top: 280px;
+@media screen and (min-width: 810px) {
+  .landing-page h1 {
+    font-size: 4rem;
   }
 
+  .landing-page h3 {
+    font-size: 2.4rem;
+  }
+
+  .landing-page header {
+    height: 45%;
+    min-width: 50%;
+  }
   .landing-page h3 {
     position: static;
   }
+}
 
-  .about-content-container {
-    flex-direction: row;
-    align-items: center;
+@media screen and (min-width: 1175px) {
+  .top-landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
   }
 
-  .about-text-container {
+  .top-landing header {
+    padding: 2%;
     width: 50%;
   }
 
-  .contact-page-container {
-    width: 95%;
-    height: 90%;
-    flex-direction: row-reverse;
+  .top-landing h1 {
+    min-width: 3%;
+    width: 530px;
+    font-size: 5.8rem;
   }
 
-  .contact-page-container section {
-    height: 40%;
-  }
-
-  .contact-page h1 {
-    font-family: "Armata", sans-serif;
-    font-size: 6rem;
-    width: 52%;
-    text-align: center;
-  }
-
-  .faTruck-icon {
-    font-size: 5rem;
-    margin: 5px 0 0 2rem;
-  }
-}
-
-@media screen and (min-width: 1300px) {
-  .landing-page header {
-    height: 40%;
-    width: 60%;
-    top: 500px;
-  }
-
-  .landing-page header section {
-    width: 60%;
-  }
-
-  .landing-page h1 {
-    font-size: 8em;
-    width: 80%;
-  }
-
-  .landing-page h3 {
-    font-size: 2.8rem;
-    position: relative;
-    top: 0;
-    right: 55px;
-  }
-
-  .about-text-container p {
-    width: 80%;
-    font-size: 2.2rem;
-  }
-
-  .contact-link,
-  .contact-link:active {
-    font-size: 2.8rem;
-    top: 50px;
-    right: 60px;
-  }
-
-  .contact-link:hover {
-    color: #fbe47e;
-    transition: all 0.3s ease-in-out;
-  }
-
-  .small-truck-container {
-    max-width: 700px;
-  }
-
-  .contact-page p {
-    font-size: 2rem;
-    width: 70%;
-  }
-
-  .contact-page ul {
-    width: 60%;
-  }
-
-  .contact-page li {
-    font-size: 2.4rem;
-  }
-}
-
-@media screen and (min-width: 1550px) {
-  .contact-page p {
-    width: 50%;
+  .title-container {
+    width: 85%;
+    padding: 0 0 15px 0;
   }
 }
