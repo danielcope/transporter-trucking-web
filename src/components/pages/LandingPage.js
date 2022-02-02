@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import AboutSection from "../AboutSection";
-import Mouse from "../Mouse";
 
 const LandingPage = () => {
   return (
