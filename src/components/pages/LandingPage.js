@@ -18,7 +18,6 @@ const LandingPage = () => {
           <h3>Serving California since 1998</h3>
         </header>
       </section>
-      <Mouse />
       <AboutSection />
     </section>
   );

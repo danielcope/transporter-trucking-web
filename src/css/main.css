@@ -78,6 +78,10 @@ li {
   padding: 0 10%;
 }
 
+.faTruck-icon {
+  margin: 0 0 0 1rem;
+}
+
 /* #region Scroll bar */
 ::-webkit-scrollbar {
   width: 10px;
@@ -158,20 +162,6 @@ li {
   background-position: center;
   height: 120px;
   width: 160px;
-}
-
-.learn-more {
-  position: absolute;
-  bottom: 25px;
-  right: 25px;
-}
-
-.landing-page h5 {
-  font-size: 2rem;
-}
-
-.mouse {
-  display: none;
 }
 
 .contact-link,
@@ -296,7 +286,7 @@ li {
 
 @media screen and (min-width: 810px) {
   .landing-page h1 {
-    font-size: 4rem;
+    font-size: 4.6rem;
   }
 
   .landing-page h3 {
@@ -310,9 +300,34 @@ li {
   .landing-page h3 {
     position: static;
   }
+
+  .about-text-container p {
+    margin: 5%;
+  }
+
+  .contact-link:hover {
+    color: #e0ab5d;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .contact-link,
+  .contact-link:active {
+    font-size: 3.2rem;
+    right: 45px;
+    top: 35px;
+  }
 }
 
 @media screen and (min-width: 1175px) {
+  h1 {
+    font-size: 5.8rem;
+  }
+
+  p,
+  li {
+    font-size: 2.4rem;
+  }
+
   .top-landing {
     display: flex;
     flex-direction: column;
@@ -327,11 +342,18 @@ li {
   .top-landing h1 {
     min-width: 3%;
     width: 530px;
-    font-size: 5.8rem;
   }
 
   .title-container {
     width: 85%;
     padding: 0 0 15px 0;
+  }
+
+  .about-content-container {
+    flex-direction: row;
+  }
+
+  .contact-page-container {
+    flex-direction: row-reverse;
   }
 }
