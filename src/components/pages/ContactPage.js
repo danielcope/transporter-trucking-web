@@ -5,6 +5,7 @@ import { faTruck } from "@fortawesome/free-solid-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
 
 const ContactPage = () => {
   return (
@@ -26,15 +27,17 @@ const ContactPage = () => {
           <ul>
             <li>
               <FontAwesomeIcon className="icon" icon={faPhone} />
-              805-621-0158
+              805-347-6954
             </li>
             <li>
               <FontAwesomeIcon className="icon" icon={faEnvelope} />
-              roadrunnerstrucking@gmail.com
+              roadrunnerstruckingsm@gmail.com
             </li>
             <li>
-              <FontAwesomeIcon className="icon" icon={faFacebook} />
-              Roadrunners Trucking
+              <a href={"https://www.facebook.com/roadrunnerstrucking"}>
+                <FontAwesomeIcon className="icon" icon={faFacebook} />
+                Roadrunners Trucking <FontAwesomeIcon className="faLink-icon" icon={faLink} />
+              </a>
             </li>
           </ul>
         </section>

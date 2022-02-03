@@ -264,6 +264,17 @@ li {
   display: flex;
 }
 
+.contact-page a,
+.contact-page a:visited {
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
+.contact-page a:hover {
+  color: #e0ab5d;
+  transition: all 0.3s ease-in-out;
+}
+
 .fa-truck {
   color: #f6f6f6;
   font-size: 2.4rem;
@@ -272,6 +283,10 @@ li {
 .icon {
   margin: 0 15px 0 0;
   font-size: 3rem;
+}
+
+.faLink-icon {
+  margin: 0 0 0 15px;
 }
 
 .small-truck-container {

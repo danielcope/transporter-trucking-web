@@ -14,7 +14,7 @@ const AboutSection = () => {
           <h1>About us</h1>
           <p>
             We have been delivering in Central Coast, California for over two
-            decades. Over that time, we have been expanded our services to an
+            decades. Over that time, we have been expanding our services to an
             even greater area of California. From San Diego all the way to San
             Fransisco and beyond.{" "}
           </p>
