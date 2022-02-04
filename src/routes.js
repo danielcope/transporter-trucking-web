@@ -6,7 +6,7 @@ import AboutSection from "./components/AboutSection";
 
 export default (
   <Routes>
-    <Route exact path="/" element={<LandingPage />} />
+    <Route path="/" element={<LandingPage />} />
     <Route path="/contactpage" element={<ContactPage />} />
     <Route path="/aboutsection" element={<AboutSection />} />
   </Routes>
