@@ -34,9 +34,14 @@ const ContactPage = () => {
               roadrunnerstruckingsm@gmail.com
             </li>
             <li>
-              <a href={"https://www.facebook.com/roadrunnerstrucking"}>
+              <a
+                href={"https://www.facebook.com/roadrunnerstrucking"}
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 <FontAwesomeIcon className="icon" icon={faFacebook} />
-                Roadrunners Trucking <FontAwesomeIcon className="faLink-icon" icon={faLink} />
+                Roadrunners Trucking{" "}
+                <FontAwesomeIcon className="faLink-icon" icon={faLink} />
               </a>
             </li>
           </ul>
