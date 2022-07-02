@@ -19,7 +19,7 @@ const ContactPage = () => {
             </h1>
           </section>
           <p>
-            We would love to hear from you. React out to us through one of these
+            We would love to hear from you. Reach out to us through one of these
             methods and we will accommodate.
           </p>
         </section>
